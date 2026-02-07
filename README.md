@@ -4,8 +4,7 @@ The given dataset is a mental-health-related survey containing multiple categori
 # Dataset Description -
 Dataset Name: Mental Health dataset
 Source: https://www.kaggle.com/datasets/alamshihab075/mental-health-dataset?select=Mental+Health+dataset1.csv
-Target Variable: CareOptions (Multi-class)
-Features: The dataset contains 16 categorical attributes like Gender, Country, Occupation, Treatment, Family history and many more.
-Number of samples: 261328
+Target Variable: CareOptions (Multi-class) 
+Features: The dataset contains 16 categorical attributes like Gender, Country, Occupation, Treatment, Family history and many more. Number of samples: 261328 
 Number of features: 16
 Problem type: Multi-class classification
