@@ -129,14 +129,6 @@
     "\n",
     "    st.write(\"Predictions:\", predictions)"
    ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "0680b476-e048-4eab-9fa3-001672dc33e0",
-   "metadata": {},
-   "outputs": [],
-   "source": []
   }
  ],
  "metadata": {
