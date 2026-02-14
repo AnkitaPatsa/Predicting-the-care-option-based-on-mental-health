@@ -26,8 +26,8 @@ model_name = st.selectbox(
 
 if uploaded_file:
     data = pd.read_csv(uploaded_file)
-    model = joblib.load(f"{model_name}.pkl")
-    label_encoder = joblib.load("label_encoder.pkl")
+    model = joblib.load(f"model/{model_name}.pkl")
+    label_encoder = joblib.load("model/label_encoder.pkl")
     if "CareOptions" in data.columns:
         X_test = data.drop("CareOptions", axis=1)
         y_true = label_encoder.transform(data["CareOptions"])
