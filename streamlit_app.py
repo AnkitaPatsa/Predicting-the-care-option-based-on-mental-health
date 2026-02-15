@@ -16,6 +16,23 @@ from sklearn.metrics import (
 
 st.title("Mental Health Care Options")
 
+@st.cache_data
+def load_sample_data():
+    return pd.read_csv("data/Mental Health Dataset.csv") 
+
+sample_df = load_sample_data()
+
+st.subheader("Download Sample Dataset")
+
+csv_sample = sample_df.to_csv(index=False).encode("utf-8")
+
+st.download_button(
+    label="Download Sample Dataset",
+    data=csv_sample,
+    file_name="Mental Health Dataset.csv",
+    mime="text/csv"
+)
+
 uploaded_file = st.file_uploader("Upload data for predictions (CSV)", type="csv")
 
 model_name = st.selectbox(
