@@ -8,7 +8,9 @@ Source: https://www.kaggle.com/datasets/alamshihab075/mental-health-dataset?sele
 
 Target Variable: CareOptions (Multi-class) 
 
-Features: The dataset contains 16 categorical attributes like Gender, Country, Occupation, Treatment, Family history and many more. Number of samples: 261328 
+Features: The dataset contains 16 categorical attributes like Gender, Country, Occupation, Treatment, Family history and many more. 
+
+Number of samples: 261328 
 
 Number of features: 16
 
